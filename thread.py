@@ -58,7 +58,7 @@ gmail = Gmail()
 service = gmail.service  # This gives you access to the underlying Gmail API service
 
 # Get a thread ID from an existing message
-messages = gmail.get_sent_messages(query="To: arhinr@gmail.com") 
+messages = gmail.get_sent_messages(query="To: cboadu@axxendcorp.com") 
 
 if messages:
     # Get the thread ID from the first message
